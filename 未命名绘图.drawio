@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2020-02-13T05:41:35.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" version="12.6.8" etag="Sfc356uhfxg7IcMnHgs6" type="github"><diagram id="S7afa7Z-TxTpa0PrKAXz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-13T05:49:15.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" etag="wtJAxr56-nuNxJS9Swim" version="12.6.8" type="github">
+  <diagram id="S7afa7Z-TxTpa0PrKAXz" name="第 1 页">
+    <mxGraphModel dx="1250" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSpabfDgvdQUFJQj2VDJ-1" target="pSpabfDgvdQUFJQj2VDJ-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-1" value="注册" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSpabfDgvdQUFJQj2VDJ-4" target="pSpabfDgvdQUFJQj2VDJ-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-4" value="手机短信验证&lt;br&gt;sendCaptcha （发送短信）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="210" width="210" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSpabfDgvdQUFJQj2VDJ-8" target="pSpabfDgvdQUFJQj2VDJ-11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-8" value="发送给短信平台并返回验证码&lt;br&gt;receive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="210" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pSpabfDgvdQUFJQj2VDJ-11" target="pSpabfDgvdQUFJQj2VDJ-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-11" value="手机号注册&lt;br&gt;register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="530" width="210" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-13" value="手机登录&lt;br&gt;login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="690" width="210" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-6" value="EccustomerLoginController" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pSpabfDgvdQUFJQj2VDJ-10" value="MsgController" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="160" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
